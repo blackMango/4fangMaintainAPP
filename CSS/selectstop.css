@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+#section {
+	padding:10px 0px 0px;
+}
+#section > .name,#section > .adress,#section > .stop,#section > .time,#section > .phone,#section > .acttest,#section > .test,#section > .password {
+	width:94%;
+	margin:5px 3%;
+}
+#section #select {
+	margin:0px 2%;
+}
+#section select {
+	float:left;
+	font-size:14px;
+	width:23%;
+	height:32px;
+	line-height:32px;
+	border:1px solid #5bbbff;
+	background-color:#f6fbfe;
+	border-radius:4px;
+	color:#646464;
+}
+#section > .name h4 span {
+	line-height:36px;
+	color:rgba(0,0,0,0);
+	font-size:14px;
+}
+#section > .name h4,#section > .adress h4,#section > .stop h4,#section > .time h4,#section > .phone h4,#section > .acttest h4,#section > .test h4 {
+	width:27%;
+	float:left;
+	line-height:36px;
+	color:#000;
+	font-size:14px;
+	font-weight:normal;
+	text-align:justify;
+	text-align-last:justify;
+}
+#section > .name input[type = text],#section > .stop input[type = text],#section > .time input[type = datetime-local],#section > .phone input[type = tel] {
+	display:inline-block;
+	width:73%;
+	float:right;
+	font-size:14px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-ms-border-radius:6px;
+	-o-border-radius:6px;
+	border-radius:6px;
+	background-color:#f6fbfe;
+	border:1px solid #5bbbff;
+	line-height:32px;
+	height:32px;
+	color:#646464;
+	font-size:14px;
+	padding:0px 4px;
+}
+
+#section > .acttest input[type = tel] {
+	display:inline-block;
+	width:38%;
+	float:left;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-ms-border-radius:6px;
+	-o-border-radius:6px;
+	border-radius:6px;
+	background-color:#f6fbfe;
+	border:1px solid #5bbbff;
+	line-height:32px;
+	height:32px;
+	color:#646464;
+	font-size:14px;
+	padding:0px 4px;
+}
+#section > .acttest span {
+	width:34%;
+	line-height:32px;
+	height:32px;
+	color:#323232;
+	font-size:12px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-ms-border-radius:6px;
+	-o-border-radius:6px;
+	border-radius:6px;
+	background-color:#eee;
+	text-align:center;
+	float:right;
+}
+#section > .test input[type = tel] {
+	display:inline-block;
+	width:38%;
+	float:left;
+	-webkit-border-radius:6px 0px 0px 6px;
+	-moz-border-radius:6px 0px 0px 6px;
+	-ms-border-radius:6px 0px 0px 6px;
+	-o-border-radius:6px 0px 0px 6px;
+	border-radius:6px 0px 0px 6px;
+	background-color:#f6fbfe;
+	border:1px solid #5bbbff;
+	border-right:none;
+	line-height:32px;
+	height:32px;
+	color:#646464;
+	font-size:14px;
+	padding:0px 4px;
+}
+#section > .test span {
+	width:23%;
+	line-height:32px;
+	height:32px;
+	color:#000;
+	font-size:16px;
+	background-color:#eee;
+	text-align:center;
+	float:left;
+	border-top:1px solid #5bbbff;
+	border-bottom:1px solid #5bbbff;
+	font-family:"迷你简菱心";
+	letter-spacing:4px;
+	font-weight:bold;
+}
+#section > .test .img {
+	float:left;
+	width:12%;
+	height:32px;
+	border:1px solid #5bbbff;
+	border-left:none;
+	-webkit-border-radius:0px 6px 6px 0px;
+	-moz-border-radius:0px 6px 6px 0px;
+	-ms-border-radius:0px 6px 6px 0px;
+	-o-border-radius:0px 6px 6px 0px;
+	border-radius:0px 6px 6px 0px;
+}
+#section > .test .img img {
+	height:20px;
+	margin:4px auto;
+	cursor:pointer;
+}
+#section > .agree {
+	width:94%;
+	margin:0px 3%;
+}
+#section > .agree input[type = checkbox] {
+	width:14px;
+	height:14px;
+	float:left;
+	margin:8px 0px;
+}
+#section > .agree h5 {
+	line-height:30px;
+	color:#646464;
+	font-size:12px;
+	float:left;
+	margin:0px 0px 0px 4px;
+	font-weight:normal;
+}
+#section > .agree span {
+	color:#5bbbff;
+	line-height:30px;
+	font-size:12px;
+}
+
+@media (min-width:375px) and (max-width:480px) {
+	#section > .name h4 span,#section > .name h4,#section > .adress h4,#section > .stop h4,#section > .time h4,#section > .phone h4, #section > .acttest h4, #section > .test h4,#section select,#section > .name input[type = text],#section > .stop input[type = text],#section > .time input[type = datetime-local],#section > .phone input[type = tel],#section > .acttest input[type = tel],#section > .test input[type = tel] {
+		font-size:16px;
+		}
+	#section > .agree h5,#section > .agree span,#section > .acttest span {
+		font-size:14px;
+	}
+	#section > .test span {
+		font-size:18px;
+	}
+	#section > .name h4,#section > .adress h4,#section > .stop h4,#section > .time h4,#section > .phone h4, #section > .acttest h4, #section > .test h4 {
+		width:26%;
+	}
+	#section > .name input[type = text],#section > .stop input[type = text],#section > .time input[type = datetime-local],#section > .phone input[type = tel] {
+		width:74%;
+	}
+	#section select {
+		width:24%;
+	}
+	#section #select {
+		margin:0px 1%;
+	}
+	#section > .acttest input[type = tel],#section > .test input[type = tel]{
+		width:39%;
+	}
+}
+@media (min-width:481px) and (max-width:620px) {
+	#section > .name h4 span,#section > .name h4,#section > .adress h4,#section > .stop h4,#section > .time h4,#section > .phone h4, #section > .acttest h4, #section > .test h4,#section select,#section > .name input[type = text],#section > .stop input[type = text],#section > .time input[type = datetime-local],#section > .phone input[type = tel],#section > .acttest input[type = tel],#section > .test input[type = tel] {
+		font-size:18px;
+		}
+	#section > .agree h5,#section > .agree span,#section > .acttest span {
+		font-size:16px;
+	}
+	#section > .test span {
+		font-size:20px;
+	}
+	#section > .name h4,#section > .adress h4,#section > .stop h4,#section > .time h4,#section > .phone h4, #section > .acttest h4, #section > .test h4 {
+		width:23%;
+	}
+	#section > .name input[type = text],#section > .stop input[type = text],#section > .time input[type = datetime-local],#section > .phone input[type = tel] {
+		width:77%;
+	}
+	#section select {
+		width:25%;
+	}
+	#section #select {
+		margin:0px 1%;
+	}
+	#section > .acttest input[type = tel],#section > .test input[type = tel]{
+		width:42%;
+	}
+}
+@media (min-width:621px) {
+	#section > .name h4 span,#section > .name h4,#section > .adress h4,#section > .stop h4,#section > .time h4,#section > .phone h4, #section > .acttest h4, #section > .test h4,#section select,#section > .name input[type = text],#section > .stop input[type = text],#section > .time input[type = datetime-local],#section > .phone input[type = tel],#section > .acttest input[type = tel],#section > .test input[type = tel] {
+		font-size:20px;
+		}
+	#section > .agree h5,#section > .agree span,#section > .acttest span {
+		font-size:18px;
+	}
+	#section > .test span {
+		font-size:22px;
+	}
+	#section > .name h4,#section > .adress h4,#section > .stop h4,#section > .time h4,#section > .phone h4, #section > .acttest h4, #section > .test h4 {
+		width:19%;
+	}
+	#section > .name input[type = text],#section > .stop input[type = text],#section > .time input[type = datetime-local],#section > .phone input[type = tel] {
+		width:81%;
+	}
+	#section select {
+		width:26%;
+	}
+	#section #select {
+		margin:0px 1.5%;
+	}
+	#section > .acttest input[type = tel],#section > .test input[type = tel]{
+		width:46%;
+	}
+}
+
+
+
+
+

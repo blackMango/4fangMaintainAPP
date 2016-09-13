@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header > .user {
+	background-color:#5bbbff !important;
+	border-bottom:1px solid #008ef2;
+}
+#header > .user img {
+	float:left;
+	width:50px;
+	height:50px;
+	margin:10px;
+}
+#header > .user h1 {
+	float:left;
+	font-size:20px;
+	line-height:70px;
+	color:#000;
+}
+#header > .user p {
+	float:right;
+	color:#FFF;
+	font-size:14px;
+	line-height:20px;
+	margin:44px 10px 0px;
+}
+#section > .order,#section > .mark {
+	border-bottom:1px solid #dadada;
+	background-color:#FFF;
+	margin:10px 0px;
+}
+#section > .order .figure,#section > .mark figure {
+	border-top:1px solid #dadada;
+}
+#section > .order .figure > img,#section > .mark figure img {
+	float:left;
+	height:20px;
+	margin:11px 10px;
+}
+#section > .order .figure > h2,#section > .mark figure h2 {
+	float:left;
+	line-height:44px;
+	font-size:16px;
+	color:#000;
+}
+#section > .order .figure > figcaption,#section > .mark figure > figcaption {
+	float:right;
+}
+#section > .order .figure > figcaption img,#section > .mark figure > figcaption img {
+	height:22px;
+	margin:10px;
+	float:right;
+}
+#section > .order .figure > figcaption p,#section > .mark figure > figcaption p {
+	float:right;
+	line-height:44px;
+	color:#909090;
+	font-size:14px;
+}
+
+
+@media (min-width:481px) and (max-width:621px) {
+	#header > .user h1 {
+		font-size:22px;
+	}
+	#header > .user p,#section > .order .figure > figcaption p,#section > .mark figure > figcaption p {
+		font-size:16px;
+	}
+	#section > .order .figure > h2, #section > .mark figure h2 {
+		font-size:18px;
+	}
+}
+
+@media (min-width:622px) {
+	#header > .user h1 {
+		font-size:22px;
+	}
+	#header > .user p,#section > .order .figure > figcaption p,#section > .mark figure > figcaption p {
+		font-size:16px;
+	}
+	#section > .order .figure > h2, #section > .mark figure h2 {
+		font-size:20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

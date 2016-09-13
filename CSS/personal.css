@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+#section {
+	width:90%;
+	margin:20px 5%;
+}
+#section h2 {
+	font-size:16px;
+	line-height:44px;
+	color:#000;
+	font-weight:normal;
+	text-align:center;
+}
+#section h3 {
+	width:28%;
+	font-size:14px;
+	line-height:44px;
+	color:#646464;
+	font-weight:normal;
+	float:left;
+}
+#section h3 span {
+	font-size:14px;
+	line-height:44px;
+	color:rgba(0,0,0,0);
+	font-weight:normal;
+}
+#section select {
+	display:inline-block;
+	font-size:14px;
+	width:22%;
+	height:32px;
+	line-height:32px;
+	border:1px solid #5bbbff;
+	margin:6px 0px 0px 1%;
+	background-color:#f6fbfe;
+	border-radius:4px;
+}
+#section input[type = tel],#section input[type = text] {
+	width:72%;
+	height:32px;
+	line-height:32px;
+	font-size:14px;
+	color:#646464;
+	border:1px solid #5bbbff;
+	background-color:#f6fbfe;
+	margin:6px 0px;
+	padding:0px 5px;
+	display:inline-block;
+	border-radius:4px;
+}
+
+@media (min-width:375px) and (max-width:480px) {
+	#section h3 {
+		width:27%;
+		font-size:16px;
+	}
+	#section h2 {
+		font-size:18px;
+	}
+	#section select {
+		width:22.6%;
+		font-size:16px;
+  }
+	#section input[type = tel],#section input[type = text] {
+		width:73%;
+		font-size:16px;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#section h3,#button,.button {
+		width:24%;
+		font-size:18px;
+	}
+	#section h2 {
+		font-size:20px;
+	}
+	#section select {
+		font-size:18px;
+		width:23.8%;
+  }
+	#section input[type = tel],#section input[type = text] {
+		width:76%;
+		font-size:18px;
+	}
+}
+
+@media (min-width:622px) {
+	#section h3,#button,.button {
+		width:20%;
+		font-size:20px;
+	}
+	#section h2 {
+		font-size:22px;
+	}
+	#section select {
+		font-size:20px;
+		width:25.2%;
+  }
+	#section input[type = tel],#section input[type = text] {
+		width:80%;
+		font-size:20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

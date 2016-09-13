@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+#header > figure figcaption {
+	width:100%;
+	text-align:center;
+	border-left:none;
+}
+#section {
+	width:90%;
+	margin:20px 5%;
+}
+
+#section h3 {
+	font-size:14px;
+	line-height:30px;
+	color:#000;
+	font-weight:normal;
+	margin:10px auto 0px;
+}
+#section p {
+	width:48%;
+	font-size:12px;
+	float:left;
+	border:1px solid #5bbbff;
+	text-align:center;
+	line-height:30px;
+	margin:5px auto;
+	color:#323232;
+	background-color:#f6fbfe;
+}
+#section .margin {
+	margin:5px 4% 5px 0px;
+}
+#section .currentstyle {
+	border:1px solid #008ef2;
+	color:#fafafa;
+	background-color:#5bbbff;
+}
+
+#section .model .modelbigbox {
+	display:none !important;
+}
+#section .model .currentmodel {
+	display:block !important;
+}
+
+@media (min-width:375px) and (max-width:480px) {
+	#section h3 {
+		font-size:16px;
+	}
+	#section p {
+		font-size:14px;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#section h3 {
+		font-size:18px;
+	}
+	#section p {
+		font-size:16px;
+	}
+}
+
+@media (min-width:622px) {
+	#section h3 {
+		font-size:20px;
+	}
+	#section p {
+		font-size:18px;
+	}
+}
+
+
+
+
+
+
+

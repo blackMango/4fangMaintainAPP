@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+#section {
+	width:90%;
+	margin:10px 5%;
+}
+
+#section h2 {
+	font-size:14px;
+	line-height:36px;
+	color:#000;
+	text-align:center;
+	font-weight:normal;
+}
+
+#section h3 {
+	font-size:14px;
+	line-height:30px;
+	color:#323232;
+	font-weight:normal;
+}
+#section p {
+	width:48%;
+	font-size:12px;
+	float:left;
+	border:1px solid #5bbbff;
+	text-align:center;
+	line-height:30px;
+	margin:5px auto;
+	color:#323232;
+	background-color:#f6fbfe;
+}
+#section .margin {
+	margin:5px 4% 5px 0px;
+}
+#section .currentstyle {
+	border:1px solid #008ef2;
+	color:#fafafa;
+	background-color:#5bbbff;
+}
+
+@media (min-width:375px) and (max-width:480px) {
+	#section h3,#section h2 {
+		font-size:16px;
+	}
+	#section p {
+		font-size:14px;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	#section h3,#section h2 {
+		font-size:18px;
+	}
+	#section p {
+		font-size:16px;
+	}
+}
+
+@media (min-width:622px) {
+	#section h3,##section h2 {
+		font-size:20px;
+	}
+	#section p {
+		font-size:18px;
+	}
+}
+
+
+
+
+
+
+

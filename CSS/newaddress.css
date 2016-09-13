@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+#section {
+	width:93%;
+	margin:20px 3%;
+}
+
+#section a {
+	font-size:12px;
+	line-height:36px;
+	color:#5bbbff;
+	float:right;
+}
+#section h5 {
+	font-size:12px;
+	line-height:36px;
+	color:#646464;
+	font-weight:normal;
+	float:left;
+	margin:0px 0px 0px 4px;
+}
+
+
+#section h3 {
+	width:28%;
+	text-align:justify;
+	text-align-last:justify;
+	font-size:14px;
+	line-height:36px;
+	color:#646464;
+	font-weight:normal;
+	float:left;
+}
+#section h3 span {
+	font-size:14px;
+	line-height:36px;
+	opacity:0;
+}
+#section select {
+	display:inline-block;
+	font-size:14px;
+	width:23%;
+	height:30px;
+	line-height:30px;
+	border:1px solid #5bbbff;
+	margin:4px 0px 0px;
+	background-color:#f6fbfe;
+}
+#section .marg {
+	margin:4px 1.8% 0px;
+}
+#section input[type = tel],#section input[type = text] {
+	width:72%;
+	height:30px;
+	border:1px solid #5bbbff;
+	margin:4px 0px;
+	display:inline-block;
+	float:left;
+	background-color:#f6fbfe;
+}
+#section input[type = checkbox] {
+	width:14px;
+	height:14px;
+	margin:10px 0px;
+	display:inline-block;
+	float:left;
+}
+
+
+@media (min-width:375px) and (max-width:480px) {
+	#section h3,#section h3 span,#section select,#section input[type = tel],#section input[type = text],#section select {
+		font-size:16px;
+    }
+	#section h5,#section a {
+		font-size:14px;
+	}
+	#section h3 {
+		width:26%;
+	}
+	#section input[type = tel],#section input[type = text] {
+		width:74%;
+	}
+	#section select {
+		width:24%;
+	}
+	#section .marg {
+		margin:6px 1.5% 0px;
+	}
+}
+
+@media (min-width:481px) and (max-width:621px) {
+	  #section h3,#section h3 span,#section select,#section input[type = tel],#section input[type = text],#section select {
+		font-size:18px;
+    }
+	#section h5,#section a {
+		font-size:16px;
+	}
+	#section h3 {
+		width:25%;
+	}
+	#section input[type = tel],#section input[type = text] {
+		width:75%;
+	}
+	#section select {
+		width:24%;
+	}
+	#section .marg {
+		margin:6px 1.7% 0px;
+	}
+}
+
+@media (min-width:622px) {
+	#section h3,#section h3 span,#section select,#section input[type = tel],#section input[type = text],#section select{
+		font-size:20px;
+    }
+	#section h5,#section a {
+		font-size:18px;
+	}
+	#section h3 {
+		width:20%;
+	}
+	#section input[type = tel],#section input[type = text] {
+		width:80%;
+	}
+	#section select {
+		width:26%;
+	}
+	#section .marg {
+		margin:6px 1.9% 0px;
+	}
+}
+
+
+
+
+
+
+
+
+

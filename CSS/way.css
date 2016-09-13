@@ -164,10 +164,10 @@
 	}
 }
 @media (min-width:481px) and (max-width:621px) {
-	#section h4,#section .prebox #adress > .hgroup h3 {
+	#section h4,#section .prebox #adress > .hgroup h3,#section .prebox #adress > .hgroup h4 {
 		font-size:18px;
 	}
-	#section select,#section li,#section .prebox h4,#section .prebox input[type = datetime-local],#section .prebox span,#section .prebox h5,#section .prebox #adress > .hgroup h4,#section .prebox input[type = text] {
+	#section select,#section li,#section .prebox h4,#section .prebox input[type = datetime-local],#section .prebox span,#section .prebox h5,#section .prebox input[type = text] {
 		font-size:16px;
 	}
 	#section li {
@@ -175,10 +175,10 @@
 	}
 }
 @media (min-width:622px) {
-	#section h4,#section .prebox #adress > .hgroup h3 {
+	#section h4,#section .prebox #adress > .hgroup h3,#section .prebox #adress > .hgroup h4 {
 		font-size:20px;
 	}
-	#section select,#section li,#section .prebox h4,#section .prebox input[type = datetime-local],#section .prebox span,#section .prebox h5,#section .prebox #adress > .hgroup h4,#section .prebox input[type = text] {
+	#section select,#section li,#section .prebox h4,#section .prebox input[type = datetime-local],#section .prebox span,#section .prebox h5,#section .prebox input[type = text] {
 		font-size:18px;
 	}
 	#section li {
